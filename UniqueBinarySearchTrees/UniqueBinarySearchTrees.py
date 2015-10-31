@@ -3,7 +3,7 @@ class Solution:
     # @return: An integer
     def numTrees(n):
         # write your code here
-        if(n<=0):
+        if(n<0):
             return 0
         else:
             resultList = [1];
